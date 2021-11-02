@@ -1,35 +1,24 @@
-body{
-    background-color:#808B96;
+
+body {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #943126;
-}
-li{
-    float: left;
-}
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 30px;
-    text-decoration: none;
-}
+
 img {
     display: flex-end;
 }
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: beige;
+    padding-bottom: 10%;
+}
+.card { background-color: transparent;
+    height: 10%; 
+}
+.trasparente{
+    background-color: turquoise;
+}
 
-/*funciones que dependen del tamaño de la pantalla*/
-@media all and (max-width : 600px){
-    body{
-        background-color: red;
-    }
-}
-@media all and (min-width:601px) and (max-width:900px){
-    body{
-        background-color: orange;
-    }
-}
