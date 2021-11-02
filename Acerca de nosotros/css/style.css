@@ -19,6 +19,13 @@ h2{
     height: 10%; 
 }
 .trasparente{
-    background-color: turquoise;
+    background-color: transparent;
 }
+.textonombres{
+    color:white
 
+}
+#logoketzal{
+    position:flex;
+    z-index: -1;
+}
