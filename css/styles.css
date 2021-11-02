@@ -81,6 +81,8 @@ body {
     height: 410px;
     background-color: black;
     overflow: hidden;
+    position: fixed;
+    bottom: 0;
 }
 
 .casilla {
@@ -184,6 +186,11 @@ body {
     transform: translateX(-80%);
     opacity: 0;
     transition: all 400ms;
+}
+
+#redes .overlay a {
+    text-decoration: none;
+    color: white;
 }
 
 #redes .icono:hover .overlay{
