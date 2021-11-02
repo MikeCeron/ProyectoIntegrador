@@ -81,8 +81,8 @@ body {
     height: 410px;
     background-color: black;
     overflow: hidden;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 .casilla {
